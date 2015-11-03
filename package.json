@@ -1,0 +1,24 @@
+{
+  "name": "koa-2-babel-6-async-example",
+  "version": "1.0.0",
+  "description": "Koa 2 example with async functions (Babel required)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony babel.app"
+  },
+  "keywords": [
+    "koa",
+    "babel",
+    "async"
+  ],
+  "author": "Johannes Schill",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.0.20",
+    "babel-polyfill": "^6.0.16",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "koa": "^2.0.0-alpha.2"
+  }
+}
